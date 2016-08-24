@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Data Viz Week1</title>
+<body>
+<h1>Data Viz Week1 Lesson</h1>
+
+<script>
+//This is my javascript. I'm going to write a program that describes the current state of a Soccer Team
+//This program will include a string, a number, a boolean, an array and an object 
+
+//This is a string. It mentions the name of the Team.
+var teamName="FC Barcelona";
+console.log("The name of my soccer team is : ");
+console.log(teamName);
+console.log(' ');
+
+
+//This is a number. It describes the position of the team at the League Table
+var position=1;
+console.log("The position of the team at League Table is:");
+console.log(position);
+console.log(' ');
+
+//This is a boolean. It describes whether the team will qualify for Champions League
+var willQualify=(position==1);
+console.log("Team will qualify for Champions League:");
+console.log(willQualify);
+console.log(' ');
+
+//This is an array. It stores the names of 5 players
+var team=["Messi","Suarez","Neymar","Iniesta","Pique"];
+console.log("Names of 5 players: ");
+console.log(team);
+console.log("One of the players is :");
+console.log(team[2]);
+console.log(' ');
+
+//This is an object. It will store the Attributes of the Team
+var teamAttributes={
+Attack: 95,
+Defense: 89,
+Possession: 68,
+Formation: "4-2-2",
+Squad: ["Bravo", "Pique", "Roberto", "Umtiti","Alba","Rakitic","Busquets","Iniesta","Messi","Suarez","Neymar"]
+};
+
+console.log("Team Attributes:");
+console.log(teamAttributes);
+console.log("Team Formation: ");
+console.log(teamAttributes.Formation);
+console.log("8th Player in the squad is: ");
+console.log(teamAttributes.Squad[7]);
+
+
+</script>
+
+
+</body>
+</head>
+</html>
